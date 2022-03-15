@@ -510,7 +510,7 @@ a {
     margin-left: 30px;
     margin-top: 50px;
     padding: 1em;
-    color: #EDA909;
+    color: $heading_text;
     padding-bottom: 5px;    
 }
 .Ppar {
@@ -521,7 +521,7 @@ a {
     color: #FCEED8;
 }
 .btn1 {
-    background-color: #EDA909;
+    background-color: $heading_text;
     font-size: $h3;
     letter-spacing: $heading-Lspace-5px;
     height: 50px;
@@ -531,6 +531,73 @@ a {
     align-items: center;
     margin: auto;
 
+}
+
+//----Contact Us Section
+.title {
+    $h1: 42px;
+    color: $descr_text;
+}
+.title2 {
+    color: $descr_text;
+}
+
+.mycontact {
+    text-align: center;
+}
+
+.mycontact ul {
+    margin: 10px;
+}
+
+.mycontact ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.mycontact ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: $descr_text;
+
+}
+
+.title2 {
+    padding-top: 45px;
+    font-size: 25px;
+    text-align: center;
+    color: $highlight;
+}
+
+.form input, textarea{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: $padding_all;
+    background-color: $descr_text;
+    color: black;
+    font-size: $body_text;
+    font-weight: bold;
+    border-bottom: 1px solid $heading_text;
+    border-right: 1px solid $heading_text;
+    width: calc(100% / 2);
+}
+.button {
+    font-size: 20px;
+    padding: 12px;
+    color: white;
+    background-color: $heading_text;
+    border-radius: 10px;
+    width: calc(100% / 2);    
+}
+
+//footer section
+.footer {
+    padding: $padding_all;
+    // width: 100%;
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 30vh;
 }
 
 @media screen and (max-width: 768px) {

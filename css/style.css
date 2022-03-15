@@ -598,6 +598,70 @@ a {
   margin: auto;
 }
 
+.title {
+  color: #FCEED8;
+}
+
+.title2 {
+  color: #FCEED8;
+}
+
+.mycontact {
+  text-align: center;
+}
+
+.mycontact ul {
+  margin: 10px;
+}
+
+.mycontact ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.mycontact ul li a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: #FCEED8;
+}
+
+.title2 {
+  padding-top: 45px;
+  font-size: 25px;
+  text-align: center;
+  color: #ff1700;
+}
+
+.form input, textarea {
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #FCEED8;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #EDA909;
+  border-right: 1px solid #EDA909;
+  width: 50%;
+}
+
+.button {
+  font-size: 20px;
+  padding: 12px;
+  color: white;
+  background-color: #EDA909;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.footer {
+  padding: 20px;
+  position: static;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 30vh;
+}
+
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
