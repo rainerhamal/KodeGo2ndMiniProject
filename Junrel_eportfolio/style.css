@@ -129,7 +129,9 @@ body{
 }
 
 .btn2{
-    padding: 30px 40px;
+    font-size: 25px;
+    width: 500px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 50px;
     background: #ff3559;
@@ -237,7 +239,7 @@ body{
     height: 124px;
     margin-top: 100px;
     margin-left: -40px;
-    background-image: url("/images/skill.png");
+    background-image: url("/Junrel_eportfolio/images/skill.png");
     
    
   }
@@ -247,8 +249,8 @@ body{
     width: 735px; 
     height: 124px;
     margin-top: -250px;
-    margin-left: 275px;
-    background-image: url("/images/others.png");
+    margin-left: 295px;
+    background-image: url("/Junrel_eportfolio/images/others.png");
     
    
   }
@@ -409,52 +411,52 @@ body{
   }
   
   .p2 {
-    background-image: url("/images/uvlightcontrol.png");
+    background-image: url("/Junrel_eportfolio/images/uvlightcontrol.png");
 
   }
   .p1 {
-    background-image: url("/images/circuitboard.png");
+    background-image: url("/Junrel_eportfolio/images/circuitboard.png");
 
   }
   .p3 {
-    background-image: url("/images/LoadCELL.png");
+    background-image: url("/Junrel_eportfolio/images/LoadCELL.png");
 
   }
   .p4 {
-    background-image: url("/images/ojt.jpg");
+    background-image: url("/Junrel_eportfolio/images/ojt.jpg");
 
   }
   .p5 {
-    background-image: url("/images/fingerprint.png");
+    background-image: url("/Junrel_eportfolio/images/fingerprint.png");
 
   }
   .p6 {
-    background-image: url("/images/conveyor.png");
+    background-image: url("/Junrel_eportfolio/images/conveyor.png");
 
   }
 
   .g2 {
-    background-image: url("/images/calendar.png");
+    background-image: url("/Junrel_eportfolio/images/calendar.png");
 
   }
   .g1 {
-    background-image: url("/images/Laundry.png");
+    background-image: url("/Junrel_eportfolio/images/Laundry.png");
 
   }
   .g3 {
-    background-image: url("/images/py.png");
+    background-image: url("/Junrel_eportfolio/images/py.png");
 
   }
   .g4 {
-    background-image: url("/images/rental.png");
+    background-image: url("/Junrel_eportfolio/images/rental.png");
 
   }
   .g5 {
-    background-image: url("/images/qr.png");
+    background-image: url("/Junrel_eportfolio/images/qr.png");
 
   }
   .g6 {
-    background-image: url("/images/emagazine.png");
+    background-image: url("/Junrel_eportfolio/images/emagazine.png");
 
   }
 
