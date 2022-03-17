@@ -3,14 +3,18 @@ html, body {
   margin: 0;
 }
 
-.tab, #tab4, #tab3, #tab2, #tab1, #tab0 {
+.tab, #tab0, #tab1, #tab2, #tab3, #tab4 {
   height: 108%;
   position: absolute;
-  box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.tab:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
-  transform: translateX(-80vw);
+
+.tab:hover ~ div, #tab0:hover ~ div, #tab1:hover ~ div, #tab2:hover ~ div, #tab3:hover ~ div, #tab4:hover ~ div {
+  -webkit-transform: translateX(-80vw);
+          transform: translateX(-80vw);
 }
 
 #tab0 {
@@ -22,8 +26,9 @@ html, body {
   width: 95vw;
   background: white;
 }
+
 #tab1::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -37,8 +42,9 @@ html, body {
   width: 90vw;
   background: white;
 }
+
 #tab2::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -52,8 +58,9 @@ html, body {
   width: 85vw;
   background: white;
 }
+
 #tab3::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -67,8 +74,9 @@ html, body {
   width: 80vw;
   background: #726f6e;
 }
+
 #tab4::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -76,5 +84,4 @@ html, body {
   border-radius: 0 20px 20px 0;
   top: 0;
   right: -4vw;
-}4vw;
 }

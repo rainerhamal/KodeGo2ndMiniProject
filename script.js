@@ -27,7 +27,7 @@ let projects = [
     {
         name: "Junrel >>Visit",
         class:"junrel",
-        portfolio:"/Junrel_eportfolio/project/index.html"
+        portfolio:"/Junrel_eportfolio/index.html"
        // image: "ep.jpg",
     },
     {
