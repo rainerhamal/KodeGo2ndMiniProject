@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans+Condensed:wght@700&family=Ubuntu:wght@300&display=swap');
+
+
+.article {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    padding: 10px 200px;
+}
+.article h4 {
+    font-size: 50px;
+    margin: 20px 30px;
+}
+.article img {
+    height: 50vh;
+    width: 100vh;
+    border-radius: 5px;
+}
+

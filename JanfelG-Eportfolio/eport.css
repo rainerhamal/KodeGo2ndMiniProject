@@ -1,0 +1,331 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(207, 204, 204);
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+section {
+    width: 100%;
+    height: 95vh;
+    /*background-image: url(981549.jpg);*/
+    /* background-color: rgb(247, 248, 200); */
+    background-color: rgb(207, 204, 204);
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px black;
+    padding: 0px 5%;
+    position: fixed;
+    width: 90%;
+    z-index: 10;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul li a {
+    margin: 30px;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo {
+    font-family: sans-serif;
+    color: black;
+    font-size: 22px;
+}
+.active {
+    font-weight: bold;
+    color: black;
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: rgb(46, 44, 44);
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+.text-container p:nth-child(3){
+    
+    color: black;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    transform: translate(13% 42%);
+}
+.text-container button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size:14px;
+    outline: none;
+    margin: 0px 0px;
+}
+.hire-btn{
+    border: 2px solid black;
+    color: black;
+}
+.download {
+    background-color: black;
+    color: white;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+}
+
+.images{
+    width: 45%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 2s;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+.aboutcon {
+    width: 80%;
+    height: 330px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgb(59, 59, 58);
+    display: flex;
+    margin: -4% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutcon img {
+ height: 250px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text p:nth-child(1) {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-text p:nth-child(2){
+    color: black;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 5px;
+}
+.about-text p:nth-child(3),
+.about-text p:nth-child(4) {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.about-text button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+.services {
+    height: 600px;
+    background-color: rgb(207, 204, 204);
+    padding: 2% 10% 0px 10%;
+}
+.services p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+}
+.services p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    line-height: 5px;
+}
+.services p:nth-child(3){
+    font-family: calibri;
+    color: black;
+}
+.services-text {
+    width: 500px;
+    margin:  50px 0px;
+    
+}
+.box1, .box2, .box3 {
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 12px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    background-color: white;
+}
+.box2 {
+    background-color: white;
+}
+
+.box3 {
+    background-color: white;
+}
+.box1 span, .box2 span, .box3 span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    font-weight: bold; 
+    color: white;
+}
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2){
+    color: rgb(5, 5, 5);
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+}
+.box1 p:nth-child(3),
+.box2 p:nth-child(3),
+.box3 p:nth-child(3){
+    font-family: calibri;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.cont {
+    box-shadow: 8px 8px 8px 8px rgb(59, 59, 58);
+    color: rgb(5, 5, 5);
+    width: 130vh;
+    margin: auto;
+    /* margin-left: 150px; */
+
+}
+.logos{
+    height: 30vh;
+    width: 130vh;
+    
+    
+}
+footer {
+    margin-top: 150px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-family: calibri;
+    
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    text-align: center;
+    
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons {
+    display: flex;
+}
+.copyright {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50);
+}
+.social-icons i {
+    color: rgb(255, 255, 255);
+}
+.social-icons a:hover {
+    background-color: rgb(182, 174, 174);
+    box-shadow: 2px 2px 12px black;
+    transition: all ease 0.5s;
+}
+
+
+

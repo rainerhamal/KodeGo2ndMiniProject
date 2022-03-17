@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <!--CSS Stylesheet-->
     <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./lib/ourteam.css" type="text/css">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -97,18 +100,42 @@
     </div>
 
     <!--Our Team Section-->
-    <div class="section" id="OurTeam">
-        <div class="SectionHeader">
+    <div class="section aboutUs" id="OurTeam">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!-- <div class="SectionHeader">
             <h1 class="heading-2">Our Team</h1>
+        </div> -->
+
+        <!-- <div class="mycontain">
+            
+        </div> -->
+
+        <div class=" OurTeam">
+            <div class="mycontainourteamright">
+                <a href="http://www.thismanslife.co.uk" class="ourworkslbl" target="_blank">OUR TEAM</a>
+            
+              <p>Discover the incredible minds behind this firm's beginnings and success</p>
+        
+            </div>
+           
+            <div class="mycontainourteam">
+            </div>
         </div>
 
-        <div class="mycontain">
-            
-        </div>
+
     </div>
 
     <!--Projects Section-->
-    <div class="section" id="Projects">
+    <div class="section aboutUs" id="Projects">
         <span></span>
         <span></span>
         <span></span>
@@ -135,7 +162,6 @@
 
     <!--Contact Us Section-->
     <div class="section aboutUs" id="ContactUs">
-
         <span></span>
         <span></span>
         <span></span>
@@ -154,41 +180,56 @@
             <h1 class="title">WE'D REALLY LOVE TO HEAR FROM YOU!</h1>
 
             <h3 class="title2">WANT TO COLLABORATE WITH US?</h3>
-            <form class="form" action="">
-                <input type="text" name="name" placeholder="Enter name">
-                <small></small><br>
-
-                <input type="text" name="email" placeholder="Enter email">
-                <small></small><br>
-
-                <input type="text" name="" id="" placeholder="Enter phone number">
-                <small></small><br>
-                
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+            <form class="form" action="" id="contactForm">
+                <input type="text" name="nameFull" placeholder="Enter name" id="nameFull">
                 <br>
+                <small id="error1" style="color: antiquewhite;"></small>
+                <br><br>
 
-                <button class="button"><b>Submit</b></button>
+                <input type="email" name="email" placeholder="Enter email" id="email">
+                <br>
+                <small id="error2" style="color: antiquewhite;"></small>
+                <br><br>
+
+                <input type="text" name="contactNumber" id="contactNumber" placeholder="Enter contact number">
+                <br>
+                <small id="error3" style="color: antiquewhite;"></small>
+                <br><br>
+                
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                <br>
+                <small id="error4" style="color: antiquewhite;"></small>
+                <br><br>
+
+                <input class="button" type="submit" name="submit" value="Submit" id="submit">
 
             </form>
         </div>
 
         <!--Footer Section-->
     <div class="footer" >
-        <p>You can get in touch with us through:</p>
+        <div class="footer1">
+            <h3>
+                You can get in touch with us through:
+            </h3>
             <ul>
                 <li>
-                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    <i class='bx bxs-envelope' ></i>
                     <a href="">info@worldtreestudios.com</a>
                 </li>
                 <li>
-                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <i class='bx bxs-phone-call'></i>
                     <a href="">+6398-765-4321</a>
                 </li>
             </ul>
-            <!-- <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>       -->
-    
+        </div>
+
+        <div class="socialMedia">
+            <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/"><i class='bx bxl-github' ></i></a>
+            <a href="https://twitter.com/"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt' ></i></a>
+
         </div>
     </div>
 

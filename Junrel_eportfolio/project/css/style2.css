@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.tab, #tab0, #tab1, #tab2, #tab3, #tab4 {
+  height: 108%;
+  position: absolute;
+  -webkit-box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.tab:hover ~ div, #tab0:hover ~ div, #tab1:hover ~ div, #tab2:hover ~ div, #tab3:hover ~ div, #tab4:hover ~ div {
+  -webkit-transform: translateX(-80vw);
+          transform: translateX(-80vw);
+}
+
+#tab0 {
+  width: 110vw;
+  background: black;
+}
+
+#tab1 {
+  width: 95vw;
+  background: #251c23;
+}
+
+#tab1::after {
+  content: '';
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #251c23;
+  border-radius: 0 20px 20px 0;
+  top: 75%;
+  right: -4vw;
+}
+
+#tab2 {
+  width: 90vw;
+  background: #2c2628;
+}
+
+#tab2::after {
+  content: '';
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #2c2628;
+  border-radius: 0 20px 20px 0;
+  top: 50%;
+  right: -4vw;
+}
+
+#tab3 {
+  width: 85vw;
+  background: #464242;
+}
+
+#tab3::after {
+  content: '';
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #464242;
+  border-radius: 0 20px 20px 0;
+  top: 25%;
+  right: -4vw;
+}
+
+#tab4 {
+  width: 80vw;
+  background: #726f6e;
+}
+
+#tab4::after {
+  content: '';
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #726f6e;
+  border-radius: 0 20px 20px 0;
+  top: 0;
+  right: -4vw;
+}

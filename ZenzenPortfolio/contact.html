@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="port.css">
+
+    <style>
+        .container {
+            display: block;
+            text-align: center;
+            padding: 40px;
+        }
+        .head2 {
+            color: #fff0db;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-size: 32px;
+        }
+        .form input {
+            border: 0;
+            outline: 0;
+            background: transparent;
+            border-bottom: 2px solid #fff0db;
+            padding: 12px;
+            margin: 30px;
+            color: #fff0db;
+        }
+        .button {
+            padding: 15px;
+            margin: 20px;
+            width: auto;
+            height: auto;
+            border-radius: 30px;
+            background-color: #6277a5;
+            color: #090e63;
+            cursor: pointer;
+        }
+        .info {
+            color: #fff0db;
+            font-family: sans-serif;  
+            text-align: center;          
+        }
+        .info p {
+            padding: 25px;
+            text-transform: uppercase;
+        }
+        .info ul {
+            display: inline-block;
+        }
+        .info ul li {
+            list-style: none;
+            margin: 10px 0;
+            text-align: justify;
+            cursor: pointer;
+        }
+        .info ul li .icon {
+            width: 30px;
+            font-size: 18px;
+            color: #090e63;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="head">
+        <a href="e-portfolio.html">My Portfolio</a>
+    </header>
+    <hr>
+    <nav class="navbar">
+        <ul>
+            <li><a href="e-portfolio.html">About Me</a></li>
+            <li><a href="work.html">My work</a></li>
+            <li><a href="resume.html">My Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="head2">Contact Me</h2>
+        <form class="form" action="">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="email" placeholder="Your Email"><br>
+            <input type="text" name="message" placeholder="Enter message here..."><br>
+            <button class="button">Submit</button>
+        </form>
+        <br>
+        <div class="info">
+            <p>You can also get in touch with me through:</p>
+            <ul>
+                <li> 
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">+6395-501-9478</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    <span class="text">zenypaulinesalinas@gmail.com</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                    <span class="text">https://www.facebook.com/zeny.lazy</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
