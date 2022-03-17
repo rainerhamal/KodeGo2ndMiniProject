@@ -21,7 +21,7 @@ let projects = [
     {
         name: "Rainer >>Visit",
         class:"rainer",
-        portfolio:"Rainer_E_Portfolio/EPortfolioWRainerFlores.html"
+        portfolio:"/Rainer_E_Portfolio/index.html"
        // image: "ep.jpg",
     },
     {
