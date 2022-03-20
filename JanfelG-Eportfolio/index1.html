@@ -23,9 +23,9 @@
             <p>Hello,</p>
             <p>I'M JANFEL</p>
             <p>I'm an IT student in Southern Philippine <br> College and soon to become a 
-                <br>  Web Developer in KodeGo.</p>
+                <br><b style="color: rgb(34, 135, 218); font-size: 40px;">Web Developer</b> in KodeGo.</p>
                
-                <button class="download">Download CV</button>
+                <button><a href="./JamResume.png" class="CVLink" id="CVLink">Download CV</a></button>
             </div>
             <div class="images">
                 <img src="r.png" class="shape">
@@ -37,13 +37,16 @@
     <div class="about-text">
         <p>About Me</p>
         <p>Developer and Designer</p>
-        <p>Hello! I am Janfel Y. Gementiza. I am a undergrad 4thyr IT student in Southern Philippine College
-         in Cagayan de Oro City and currently learning in KodeGo to become a Master in Web Developer. 
+        <p>Hello! I am Janfel Y. Gementiza. I am a 4thyr undergrad IT student from the Southern Philippine College
+         in Cagayan de Oro City. I am also currently in KodeGo to become a Master Web Developer. 
         </p>
-        <p>As I am learning I realize what is my passion and what I enjoy the most. I like designing a program.
-           I Accidentally found joy in designing a website or projects that I made. </p>
-           <button>Hire Me</button>
-           <button>Download CV</button>
+        <p>While studying I realize what my passion and what I enjoy the most is. I like designing programs.
+           I Accidentally found my joy in designing websites and projects. </p>
+           <a href="https://calendly.com/jamgementiza1998/for-interview
+           ">
+            <button>Hire Me</button>
+            </a>
+           <button><a href="./JamResume.png" class="CVLink" id="CVLink">Download CV</a></button>
     </div>
 </div>
 <div class="services" id="Myworks">
@@ -94,10 +97,10 @@
     <p>Thank you for browsing my portfolio. I hope you'll appreciate my simple works. I am still learning and 
         practicing my coding and experience. </p>
         <div class="social-icons">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com/"><i class="bi bi-youtube"></i></a>
             
         </div>
     </div>
@@ -105,5 +108,18 @@
 
 
 
+
+    <script>
+        //Download CV
+        let cvDownload = document.querySelector(".about-text .CVLink");
+        cvDownload.addEventListener('click', () => {
+            const span = document.querySelector(".CVLink span");
+            span.style.visibility = "visible";
+            setTimeout(() => {
+                span.style.visibility = "hidden";
+                cvDownload.style.transition = "1s ease-in-out";
+            }, 3000)
+        })
+    </script>
 </body>
 </html>

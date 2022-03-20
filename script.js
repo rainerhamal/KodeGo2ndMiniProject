@@ -21,13 +21,13 @@ let projects = [
     {
         name: "Rainer >>Visit",
         class:"rainer",
-        portfolio:"/Rainer_E_Portfolio/index.html"
+        portfolio:"https://rainerhamal.github.io/Rainer_E_Portfolio/"
        // image: "ep.jpg",
     },
     {
         name: "Junrel >>Visit",
         class:"junrel",
-        portfolio:"/Junrel_eportfolio/index.html"
+        portfolio:"https://jednalig.github.io/Junrel_EPortfolio/"
        // image: "ep.jpg",
     },
     {
@@ -142,7 +142,7 @@ function checkNumber() {
         if ((phoneNum.test(contactNumberFinal))){
             document.querySelector("#error3").innerText = "Valid Number";
         } else {
-            document.querySelector("#error3").innerText = "Phone number must be in the following format +XX-XXXX-XXXX, +XX.XXXX.XXXX, +XX XXXX XXXX";
+            document.querySelector("#error3").innerText = "Phone number must be in the following format +XX-XXX-XXX-XXXX, +XX.XXX.XXX.XXXX, +XX XXX XXX XXXX";
         }
 };
 
@@ -150,7 +150,7 @@ function checkMessage() {
     let messageValue = message.value
     let messageFinal = messageValue.trim();
         if (messageFinal.length < 50) {
-            document.querySelector("#error4").innerText = "Please create a detailed message!";
+            document.querySelector("#error4").innerText = "Please compose a detailed message!";
         } else {
             document.querySelector("#error4").innerText = "Thank you for your Inquiry!";
         }

@@ -47,7 +47,7 @@ let projects2 = [
 {
     name: "Project two ",
     class:"g2",
-    portfolio:"",
+    portfolio:"https://jednalig.github.io/Event-management/",
     tip:"E-Calendar Management System"
 },
 {
