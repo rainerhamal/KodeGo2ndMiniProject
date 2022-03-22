@@ -1,2 +1,3 @@
-# rainerhamal.2ndMiniProject.github.io
+# rainerhamal.
+KodeGo2ndMiniProject.github.io
  2ndMiniProject
